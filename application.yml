@@ -89,7 +89,7 @@ plugins:
       albumLoadLimit: 3 # The number of pages at 300 tracks each
     deezer:
       masterDecryptionKey: "g4el58wc0zvf9na1"
-      # arl: "your deezer arl"
+      arl: "088ce21cfe5057ee94869a42ee4fb8fd48723d934e9d0943d8351da4916979655d181727c2ced6384667211d36c5e80888c60b74f5ef96f32bad3a17616a653fefc67d77afdc1ed7ba54d8700934f088f7bcad93376819e006a2736e8a4311c5 "
       formats: [ "FLAC", "MP3_320", "MP3_256", "MP3_128", "MP3_64", "AAC_64" ]
     yandexmusic:
       accessToken: "your access token"
