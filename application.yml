@@ -5,9 +5,9 @@ server:
     enabled: false # Whether to enable HTTP/2 support
 plugins:
   youtube:
-    enabled: true
+    enabled: false
     oauth:
-      enabled: true
+      enabled: false
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
@@ -55,7 +55,7 @@ plugins:
   lavasrc:
     providers:
       #- "ytsearch:\"%ISRC%\"" 
-      # - "dzisrc:%ISRC%"
+      - "dzisrc:%ISRC%"
       #- "ytsearch:%QUERY%"
       - "dzsearch:%QUERY%"
       #- jssearch:%QUERY%
