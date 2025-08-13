@@ -2,12 +2,12 @@ server:
   port: 2333
   address: 0.0.0.0
   http2:
-    enabled: true # Whether to enable HTTP/2 support
+    enabled: false # Whether to enable HTTP/2 support
 plugins:
   youtube:
     enabled: true
     oauth:
-      enabled: false
+      enabled: true
     allowSearch: true
     allowDirectVideoIds: true
     allowDirectPlaylistIds: true
@@ -57,8 +57,8 @@ plugins:
       #- "ytsearch:\"%ISRC%\"" 
       # - "dzisrc:%ISRC%"
       #- "ytsearch:%QUERY%"
-      # - "dzsearch:%QUERY%"
-      - jssearch:%QUERY%
+      - "dzsearch:%QUERY%"
+      #- jssearch:%QUERY%
 
     sources:
       spotify: true # Enable Spotify source
